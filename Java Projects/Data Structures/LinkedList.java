@@ -8,7 +8,7 @@ public class LinkedList<E> {
             next = n;
         }
 
-        public E getNextElement() {
+        public E getElement() {
             return element;
         }
 
@@ -20,52 +20,9 @@ public class LinkedList<E> {
             next = n;
         }
     }
-    private Node<E> head;
-    private Node<E> tail;
-    private int size;
+
+    public Node<E> head;
+    public Node<E> tail;
+    public int size;
     
-/**
- * constructor for creating a singlylinkedlist.
- */
-    public SinglyLinkedList() {
-
-    }
-
-/**
- * 
- * @return the size of the linkedlist.
- */
-    public int size() {
-
-    }
-
-    /**
-     * 
-     * @return true if the linkedlist is empty, false otherwise.
-     */
-
-    public boolean isEmpty() {
-
-    }
-
-    public E first() {
-
-    }
-
-    public E list() {
-
-    }
-
-    public void addFisrt(E element) {
-
-    }
-
-    public void addLast(E element) {
-
-    }
-
-    public E removeFirst() {
-
-    }
-
 }

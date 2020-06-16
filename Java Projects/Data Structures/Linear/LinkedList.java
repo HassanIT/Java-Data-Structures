@@ -3,7 +3,7 @@
  */
 
 public class LinkedList<E> {
-    public Node<E> head; // pointer to the first element in the list.
+    public Node<E> head; //pointer to the first element in the list.
     public Node<E> tail; //pointer to the last element in the list.
     public int size; //variable to store the size of the list.
 

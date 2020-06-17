@@ -42,7 +42,7 @@ public class SinglyLinkedList<E> extends LinkedList<E> {
  * Method to add an element to the beginning of the singlylinkedlist.
  * @param element to add to the beginning of the singlylinkedlist.
  */
-    public void addFisrt(E element) {
+    public void addFirst(E element) {
         head = new Node<E>(element, head);
         if (isEmpty()) {
             tail = head;
